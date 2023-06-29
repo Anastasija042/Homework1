@@ -2,22 +2,23 @@
 let a = 10;
 alert(a);
 // Задание 2
-a = 20;
+const a = 20;
 alert(a);
 year = 2007
 print(year)
 // Задание 3
-let creator = "Брендан Эйх";
+const creator = "Брендан Эйх";
 console.log(creator);
 // Задание 4
 let a = 10;
 let b = 2;
-alert(Сумма: ${a + b});
-alert(Разность: ${a - b});
-alert(Произведение: ${a * b});
-alert(Частное: ${a / b});
+alert('Сумма: ${a + b}');
+alert('Разность: ${a - b}');
+alert('Произведение: ${a * b}');
+alert('Частное: ${a / b}');
 // Задание 5
-result = 2 ** 5;
+let b = 2;
+let result = b ** 5;
 alert(result);
 // Задание 6
 let a = 9;
@@ -35,7 +36,7 @@ num--;
 alert(num);
 // Задание 8
 let age = prompt("Сколько вам лет?");
-alert("Вам " + age + " лет.");
+alert('"Вам " + age + " лет."');
 // Задание 9.0
 let user = {
     name: 'Anna',
@@ -53,4 +54,4 @@ let info = prompt("Какую информацию хотите узнать о 
 alert(user[info]);
 // Задание 10
 let name = prompt("Введите Ваше имя");
-alert("Привет, " + "name" + "!");
+alert('"Привет, " + name + "!"');
