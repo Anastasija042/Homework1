@@ -1,4 +1,4 @@
-// Задание 1
+/*// Задание 1
 let a = 10;
 alert(a);
 a = 20;
@@ -54,4 +54,5 @@ let info = prompt("Какую информацию хотите узнать о 
 alert(user[info]);
 // Задание 10
 let username = prompt("Введите Ваше имя");
-alert(`Привет, ${username}!`);
+alert(`Привет, ${username}!`);*/
+
