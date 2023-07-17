@@ -28,5 +28,23 @@
             margin-right: 16px;
         }
     }
+    .footer {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &_info{
+            width: 350px;
+            text-align: center;
+        }
+        
+        &_logo{
+            display: flex;
+            justify-content: center;
+            padding-top: 64px;
+            width: 344px;
+            height: 236px;
+        }
+    }
 
 }
