@@ -1,4 +1,4 @@
-/*
+
 
 // Задание 1
 
@@ -8,28 +8,13 @@ console.log(word.toUpperCase());
 
 // Задание 2
 
-const products = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-const search = 'ко';
+function searchStart(words, prefix) {
+return words.filter(word => word.toLowerCase().startsWith(prefix.toLowerCase()));
+}
 
-products.forEach((product) => {if (product.toLowerCase().includes(search.toLowerCase())) {
-		console.log(product);
-	}
-});
-const productsMeal = ['яблоко', 'груша', 'гриб', 'огурец'];
-const searchMeal = 'груша';
-
-productsMeal.forEach((product) => {if (product.toLowerCase().includes(searchMeal.toLowerCase())) {
-		console.log(product);
-	}
-});
-
-const house = ['Дом', 'Банк', 'Больница', 'Театр'];
-const searchHouse = 'Кино';
-
-house.forEach((product) => {if (product.toLowerCase().includes(searchHouse.toLowerCase())) {
-		console.log(product);
-	}
-});
+console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); 
+console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); 
+console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); 
 
 // Задание 3
 
