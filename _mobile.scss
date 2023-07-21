@@ -30,19 +30,29 @@
     }
     .footer {
         width: 375px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &_info{
+        
+        &_info_game_one{
+            text-align: center;
+            
+        }
+        &_title {
+            font-size: 32px;
+        }
+        &_slogan{
+            font-size: 14px;
+        }
+        &_info_game_two{
             width: 350px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         
         &_logo{
             display: flex;
             justify-content: center;
             padding-top: 64px;
-            width: 344px;
             height: 236px;
         }
     }
